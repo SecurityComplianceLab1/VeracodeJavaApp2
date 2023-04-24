@@ -4,7 +4,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
 public class Constants {
-	/** ANH testing 123
+	/** ANH remove password in clear text
 	private final String JDBC_DRIVER = "mysql";
 	private final String JDBC_HOSTNAME = "localhost";
 	private final String JDBC_PORT = "3306";
