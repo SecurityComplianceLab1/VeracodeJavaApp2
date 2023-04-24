@@ -4,14 +4,13 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
 public class Constants {
-	/**
 	private final String JDBC_DRIVER = "mysql";
 	private final String JDBC_HOSTNAME = "localhost";
 	private final String JDBC_PORT = "3306";
 	private final String JDBC_DATABASE = "blab";
 	private final String JDBC_USER = "blab";
-	/* START EXAMPLE VULNERABILITY  "z2^E6J4$;u;d" remove password*/
-	private final String JDBC_PASSWORD ;
+	/* START EXAMPLE VULNERABILITY */
+	private final String JDBC_PASSWORD = "z2^E6J4$;u;d";
 	/* END EXAMPLE VULNERABILITY */
 
 	private String hostname;
@@ -19,7 +18,7 @@ public class Constants {
 	private String dbname;
 	private String username;
 	private String password;
-**/
+
 	/**
 	 * Pull info from the system as an override, otherwise fall back to hardcoded values.
 	 * Environment variables are automatically set in AWS environments.
